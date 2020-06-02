@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import CountryCards from './CountryCards'
+import Search from './Search'
+//import CountryCards from './CountryCards'
 import data from './data/countriesAll.json'
 
 function App() {
   return (
     <div className="App">
-      <CountryCards allCountries ={data}/>
+      <Search allCountries ={data}/>
     </div>
   );
 }
